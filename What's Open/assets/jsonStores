@@ -1,0 +1,57 @@
+{
+    "data": [
+        {
+            "id": 680, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "2nd Stop", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "07:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "10:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "10:00:00", 
+                        "end_time": "22:00:00"
+                    }
+                ]
+            }, 
+            "name": "2nd Stop", 
+            "location": "Rogers Hall"
+        }
+    ]
+}

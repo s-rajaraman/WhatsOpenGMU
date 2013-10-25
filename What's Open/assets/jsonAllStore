@@ -1,0 +1,1462 @@
+{
+    "data": [
+        {
+            "id": 680, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "2nd Stop", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "07:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "10:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "10:00:00", 
+                        "end_time": "22:00:00"
+                    }
+                ]
+            }, 
+            "name": "2nd Stop", 
+            "location": "Rogers Hall"
+        }, 
+        {
+            "id": 527, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Auntie Anne's", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }
+                ]
+            }, 
+            "name": "Auntie Anne's", 
+            "location": "Tidewater Hall"
+        }, 
+        {
+            "id": 563, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "The Bistro", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "14:30:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "14:30:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "14:30:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "14:30:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "14:30:00"
+                    }
+                ]
+            }, 
+            "name": "The Bistro", 
+            "location": null
+        }, 
+        {
+            "id": 500, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Burger King", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "07:30:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "07:30:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "07:30:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "07:30:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "07:30:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }
+                ]
+            }, 
+            "name": "Burger King", 
+            "location": "Johnson Center"
+        }, 
+        {
+            "id": 590, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Chick-fil-A", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "08:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "08:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "08:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "08:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "08:00:00", 
+                        "end_time": "15:00:00"
+                    }
+                ]
+            }, 
+            "name": "Chick-fil-A", 
+            "location": "SUB I"
+        }, 
+        {
+            "id": 518, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Einstein Bros. Bagels (ENGR)", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "07:30:00", 
+                        "end_time": "18:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "07:30:00", 
+                        "end_time": "18:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "07:30:00", 
+                        "end_time": "18:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "07:30:00", 
+                        "end_time": "18:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "07:30:00", 
+                        "end_time": "16:00:00"
+                    }
+                ]
+            }, 
+            "name": "Einstein Bros Bagels [ENGR]", 
+            "location": "Engineering"
+        }, 
+        {
+            "id": 764, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Einstein Bros Bagels (UNIV)", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "07:30:00", 
+                        "end_time": "18:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "07:30:00", 
+                        "end_time": "18:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "07:30:00", 
+                        "end_time": "18:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "07:30:00", 
+                        "end_time": "18:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "07:30:00", 
+                        "end_time": "18:00:00"
+                    }
+                ]
+            }, 
+            "name": "Einstein Bros Bagels [UNIV]", 
+            "location": "University Hall"
+        }, 
+        {
+            "id": 626, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Express General Store", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 1, 
+                        "start_time": "07:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 2, 
+                        "start_time": "07:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 3, 
+                        "start_time": "07:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 4, 
+                        "start_time": "07:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "09:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "09:00:00", 
+                        "end_time": "23:00:00"
+                    }
+                ]
+            }, 
+            "name": "Express General Store", 
+            "location": "Johnson Center"
+        }, 
+        {
+            "id": 617, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Freshen's Smoothies (JC)", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "17:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }
+                ]
+            }, 
+            "name": "Freshen's Smoothies [JC]", 
+            "location": "Johnson Center"
+        }, 
+        {
+            "id": 689, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Freshen's Smoothies (RAC)", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "13:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "13:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "13:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "13:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "13:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }
+                ]
+            }, 
+            "name": "Freshen's Smoothies [RAC]", 
+            "location": "RAC"
+        }, 
+        {
+            "id": 771, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Gold Rush", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "09:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "09:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "09:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "09:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "09:00:00", 
+                        "end_time": "15:00:00"
+                    }
+                ]
+            }, 
+            "name": "Gold Rush", 
+            "location": "Southside Hall"
+        }, 
+        {
+            "id": 608, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Hot Spot", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "07:30:00", 
+                        "end_time": "20:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "07:30:00", 
+                        "end_time": "20:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "07:30:00", 
+                        "end_time": "20:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "07:30:00", 
+                        "end_time": "20:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "07:30:00", 
+                        "end_time": "16:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:30:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:30:00", 
+                        "end_time": "00:00:00"
+                    }
+                ]
+            }, 
+            "name": "Hot Spot", 
+            "location": "Johnson Center"
+        }, 
+        {
+            "id": 644, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "IndAroma", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }
+                ]
+            }, 
+            "name": "IndAroma", 
+            "location": "Johnson Center"
+        }, 
+        {
+            "id": 545, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Jazzman's Caf\u00e9", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "08:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "08:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "08:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "08:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "08:00:00", 
+                        "end_time": "17:00:00"
+                    }
+                ]
+            }, 
+            "name": "Jazzman's Caf\u00e9", 
+            "location": "Johnson Center"
+        }, 
+        {
+            "id": 509, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "La Patisserie", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "07:00:00", 
+                        "end_time": "20:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "07:00:00", 
+                        "end_time": "20:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "07:00:00", 
+                        "end_time": "20:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "07:00:00", 
+                        "end_time": "20:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "07:00:00", 
+                        "end_time": "19:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "09:00:00", 
+                        "end_time": "19:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "09:00:00", 
+                        "end_time": "19:00:00"
+                    }
+                ]
+            }, 
+            "name": "La Patisserie", 
+            "location": "Johnson Center"
+        }, 
+        {
+            "id": 599, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Mein Bowl", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }
+                ]
+            }, 
+            "name": "Mein Bowl", 
+            "location": "Johnson Center"
+        }, 
+        {
+            "id": 536, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "One Stop Patriot Shop", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "02:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "02:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "02:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "02:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 5, 
+                        "start_time": "11:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 6, 
+                        "start_time": "12:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 7, 
+                        "start_time": "12:00:00", 
+                        "end_time": "00:00:00"
+                    }
+                ]
+            }, 
+            "name": "One Stop Patriot Shop", 
+            "location": "Blue Ridge"
+        }, 
+        {
+            "id": 635, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Original Burger Company", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "13:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "13:00:00", 
+                        "end_time": "22:00:00"
+                    }
+                ]
+            }, 
+            "name": "Original Burger Company", 
+            "location": "The Hub"
+        }, 
+        {
+            "id": 554, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Peet's Coffee", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "08:00:00", 
+                        "end_time": "15:30:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "08:00:00", 
+                        "end_time": "15:30:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "08:00:00", 
+                        "end_time": "15:30:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "08:00:00", 
+                        "end_time": "15:30:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "08:00:00", 
+                        "end_time": "15:00:00"
+                    }
+                ]
+            }, 
+            "name": "Peet's Coffee", 
+            "location": "SUB I"
+        }, 
+        {
+            "id": 716, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "The Pilot House", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 1, 
+                        "start_time": "17:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 2, 
+                        "start_time": "17:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 3, 
+                        "start_time": "17:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 4, 
+                        "start_time": "17:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 5, 
+                        "start_time": "17:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 6, 
+                        "start_time": "21:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 7, 
+                        "start_time": "21:00:00", 
+                        "end_time": "04:00:00"
+                    }
+                ]
+            }, 
+            "name": "Pilot House", 
+            "location": "Hampton Roads"
+        }, 
+        {
+            "id": 734, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "The Mason Rathskellar", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "16:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "16:00:00", 
+                        "end_time": "21:00:00"
+                    }
+                ]
+            }, 
+            "name": "The Rathskellar", 
+            "location": "SUB I"
+        }, 
+        {
+            "id": 572, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Red Hot and Blue", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }
+                ]
+            }, 
+            "name": "Red Hot and Blue", 
+            "location": "Johnson Center"
+        }, 
+        {
+            "id": 671, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Red Mango", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }
+                ]
+            }, 
+            "name": "Red Mango", 
+            "location": "Tidewater Hall"
+        }, 
+        {
+            "id": 581, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Simply to Go", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }
+                ]
+            }, 
+            "name": "Simply to Go", 
+            "location": null
+        }, 
+        {
+            "id": 748, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Southside", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 1, 
+                        "start_time": "07:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 2, 
+                        "start_time": "07:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 3, 
+                        "start_time": "07:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 4, 
+                        "start_time": "07:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 5, 
+                        "start_time": "07:00:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 6, 
+                        "start_time": "10:30:00", 
+                        "end_time": "04:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 0, 
+                        "start_time": "10:30:00", 
+                        "end_time": "04:00:00"
+                    }
+                ]
+            }, 
+            "name": "Southside", 
+            "location": null
+        }, 
+        {
+            "id": 653, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Sprouts", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "19:30:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "19:30:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "19:30:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "19:30:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "16:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }
+                ]
+            }, 
+            "name": "Sprouts", 
+            "location": null
+        }, 
+        {
+            "id": 698, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Starbucks", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "23:59:59"
+                    }
+                ]
+            }, 
+            "name": "Starbucks", 
+            "location": null
+        }, 
+        {
+            "id": 725, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Subconnection", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "11:00:00", 
+                        "end_time": "22:00:00"
+                    }
+                ]
+            }, 
+            "name": "Subconnection", 
+            "location": "Johnson Center"
+        }, 
+        {
+            "id": 707, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Subway", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "07:00:00", 
+                        "end_time": "23:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "07:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "10:00:00", 
+                        "end_time": "22:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "10:00:00", 
+                        "end_time": "22:00:00"
+                    }
+                ]
+            }, 
+            "name": "Subway", 
+            "location": null
+        }, 
+        {
+            "id": 662, 
+            "special_schedules": [], 
+            "main_schedule": {
+                "name": "Taco Bell", 
+                "open_times": [
+                    {
+                        "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "11:00:00", 
+                        "end_time": "21:00:00"
+                    }, 
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "11:00:00", 
+                        "end_time": "15:00:00"
+                    }
+                ]
+            }, 
+            "name": "Taco Bell", 
+            "location": "SUB I"
+        }
+    ]
+}
