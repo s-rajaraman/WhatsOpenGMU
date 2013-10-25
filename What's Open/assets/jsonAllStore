@@ -1,5 +1,5 @@
 {
-    "data": [
+    "dining": [
         {
             "id": 680, 
             "special_schedules": [], 
@@ -145,7 +145,7 @@
                 ]
             }, 
             "name": "The Bistro", 
-            "location": null
+            "location": "Johnson Center, Room G38"
         }, 
         {
             "id": 500, 
@@ -198,7 +198,7 @@
                 ]
             }, 
             "name": "Burger King", 
-            "location": "Johnson Center"
+            "location": "Center Court, Johnson Center"
         }, 
         {
             "id": 590, 
@@ -239,7 +239,7 @@
                 ]
             }, 
             "name": "Chick-fil-A", 
-            "location": "SUB I"
+            "location": "Student Union I"
         }, 
         {
             "id": 518, 
@@ -280,7 +280,7 @@
                 ]
             }, 
             "name": "Einstein Bros Bagels [ENGR]", 
-            "location": "Engineering"
+            "location": "Nguyen Engineering Building, 1st Floor"
         }, 
         {
             "id": 764, 
@@ -321,7 +321,7 @@
                 ]
             }, 
             "name": "Einstein Bros Bagels [UNIV]", 
-            "location": "University Hall"
+            "location": "University Hall, 1st Floor"
         }, 
         {
             "id": 626, 
@@ -374,7 +374,7 @@
                 ]
             }, 
             "name": "Express General Store", 
-            "location": "Johnson Center"
+            "location": "Johnson Center, 1st Floor Atrium"
         }, 
         {
             "id": 617, 
@@ -427,7 +427,7 @@
                 ]
             }, 
             "name": "Freshen's Smoothies [JC]", 
-            "location": "Johnson Center"
+            "location": "Johnson Center, 1st Floor Atrium"
         }, 
         {
             "id": 689, 
@@ -480,7 +480,7 @@
                 ]
             }, 
             "name": "Freshen's Smoothies [RAC]", 
-            "location": "RAC"
+            "location": "Recreation & Athletic Complex"
         }, 
         {
             "id": 771, 
@@ -521,7 +521,7 @@
                 ]
             }, 
             "name": "Gold Rush", 
-            "location": "Southside Hall"
+            "location": "Southside, Ground Floor"
         }, 
         {
             "id": 608, 
@@ -574,7 +574,7 @@
                 ]
             }, 
             "name": "Hot Spot", 
-            "location": "Johnson Center"
+            "location": "Johnson Center, 1st Floor Atrium"
         }, 
         {
             "id": 644, 
@@ -627,7 +627,7 @@
                 ]
             }, 
             "name": "IndAroma", 
-            "location": "Johnson Center"
+            "location": "Johnson Center, 1st Floor Atrium"
         }, 
         {
             "id": 545, 
@@ -668,7 +668,7 @@
                 ]
             }, 
             "name": "Jazzman's Caf\u00e9", 
-            "location": "Johnson Center"
+            "location": "Johnson Center, Room G32"
         }, 
         {
             "id": 509, 
@@ -721,7 +721,7 @@
                 ]
             }, 
             "name": "La Patisserie", 
-            "location": "Johnson Center"
+            "location": "Johnson Center, 1st Floor Atrium"
         }, 
         {
             "id": 599, 
@@ -1186,7 +1186,7 @@
                 ]
             }, 
             "name": "Simply to Go", 
-            "location": null
+            "location": "Johnson Center, 1st Floor Atrium"
         }, 
         {
             "id": 748, 
@@ -1239,7 +1239,7 @@
                 ]
             }, 
             "name": "Southside", 
-            "location": null
+            "location": "Southside Hall, 2nd Floor"
         }, 
         {
             "id": 653, 
@@ -1292,7 +1292,7 @@
                 ]
             }, 
             "name": "Sprouts", 
-            "location": null
+            "location": "Johnson Center, 1st Floor Atrium"
         }, 
         {
             "id": 698, 
@@ -1302,6 +1302,42 @@
                 "open_times": [
                     {
                         "start_day": 0, 
+                        "end_day": 0, 
+                        "start_time": "00:00:00", 
+                        "end_time": "23:59:59"
+                    },
+                                        {
+                        "start_day": 1, 
+                        "end_day": 1, 
+                        "start_time": "00:00:00", 
+                        "end_time": "23:59:59"
+                    },
+                    {
+                        "start_day": 2, 
+                        "end_day": 2, 
+                        "start_time": "00:00:00", 
+                        "end_time": "23:59:59"
+                    },
+                    {
+                        "start_day": 3, 
+                        "end_day": 3, 
+                        "start_time": "00:00:00", 
+                        "end_time": "23:59:59"
+                    },
+                    {
+                        "start_day": 4, 
+                        "end_day": 4, 
+                        "start_time": "00:00:00", 
+                        "end_time": "23:59:59"
+                    },
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "23:59:59"
+                    },
+                    {
+                        "start_day": 6, 
                         "end_day": 6, 
                         "start_time": "00:00:00", 
                         "end_time": "23:59:59"
@@ -1309,7 +1345,7 @@
                 ]
             }, 
             "name": "Starbucks", 
-            "location": null
+            "location": "Northern Neck Hall"
         }, 
         {
             "id": 725, 
@@ -1415,7 +1451,7 @@
                 ]
             }, 
             "name": "Subway", 
-            "location": null
+            "location": "Rogers Hall, 1st Floor"
         }, 
         {
             "id": 662, 
@@ -1453,6 +1489,7 @@
                         "start_time": "11:00:00", 
                         "end_time": "15:00:00"
                     }
+
                 ]
             }, 
             "name": "Taco Bell", 

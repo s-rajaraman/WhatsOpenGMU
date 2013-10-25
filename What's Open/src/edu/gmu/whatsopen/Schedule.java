@@ -5,27 +5,23 @@ import android.text.format.Time;
 
 public class Schedule {
 	ArrayList<Timings>times;
-	
+
 	public Schedule(ArrayList<Timings>times){
 		this.times = times;
 	}
-	
+
 	public ArrayList<Timings> getTimings(){
 		return times;
 	}
-	
+
 	public String toString(){
-		String result = "";
-		String day = "Day ";
-		int x = 0;
+		String result = ""; 
 		for(Timings t:times){
-			result+=(day+x)+" ";
 			result+=t.toString()+"\n";
-			x++;
 		}
 		return result;
 	}
-	
+
 	public boolean isOpen(){
 		Time temp = new Time();
 		temp.setToNow();
@@ -35,7 +31,7 @@ public class Schedule {
 		}
 		return times.get(temp.weekDay).isOpen();
 	}
-	
+
 	/*Android weekday is 0-6, 0 being Sunday
 		GMU JSON is 0-6, 0 being Monday
 		Converts Android time to GMU Json time*/

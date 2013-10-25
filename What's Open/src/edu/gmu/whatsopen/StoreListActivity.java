@@ -21,6 +21,11 @@ public class StoreListActivity extends ListActivity {
 		jp = new JSONParser(this);
 
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		initList();
+
+	}
+
+	private void initList() {
 		ArrayAdapter<String> adapter=new ArrayAdapter<String>(
 				this,android.R.layout.simple_list_item_1, jp.getStoreNames()){
 
@@ -47,12 +52,12 @@ public class StoreListActivity extends ListActivity {
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		Intent i = new Intent("android.intent.action.STOREDETAILS");
 		Store currentStore = jp.stores.get(position);
-		
+
 		String name = currentStore.storeName;
 		int currentStoreid = currentStore.id;
 		String timings = currentStore.schedule.toString();
 		String location = currentStore.location;
-		
+
 		i.putExtra(JSONParser.name, name);
 		i.putExtra(JSONParser.location, location);
 		i.putExtra(JSONParser.id, currentStoreid);

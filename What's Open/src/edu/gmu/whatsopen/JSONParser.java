@@ -13,7 +13,7 @@ import android.util.Log;
 
 public class JSONParser {
 
-	public static String data = "data";
+	public static String dining = "dining";
 	public static String id = "id";
 	public static String location = "location";
 	public static String name = "name";
@@ -56,7 +56,7 @@ public class JSONParser {
 		try {
 			reader.beginObject();
 			String name = reader.nextName();
-			if(name.equals(data)){
+			if(name.equals(dining)){
 				reader.beginArray();
 				while (reader.hasNext()) {
 					stores.add(readStore(reader));
@@ -99,7 +99,7 @@ public class JSONParser {
 					reader.skipValue();
 				}
 			}
-
+			
 			reader.endObject();
 		} catch (IOException e) {
 			Log.e("JSONParser.readStore()", "Failed");
