@@ -21,7 +21,7 @@ public class StoreDetailsActivity extends Activity {
 		tvTimings = (TextView)findViewById(R.id.tvTimings);
 
 		Intent intent = getIntent();
-		String name = intent.getStringExtra(JSONParser.name);
+		String name = intent.getStringExtra(JsonDiningParser.name);
 
 		if(name!=null){
 			tvTitle.setTypeface(Typeface.DEFAULT_BOLD);
@@ -29,15 +29,15 @@ public class StoreDetailsActivity extends Activity {
 			tvTitle.setText(name);
 		}
 
-		if(intent.getStringExtra(JSONParser.location)!=null){
+		if(intent.getStringExtra(JsonDiningParser.location)!=null){
 			tvLocation.setTextSize(15);
-			tvLocation.setText(intent.getStringExtra(JSONParser.location));
+			tvLocation.setText(intent.getStringExtra(JsonDiningParser.location));
 		}
 
-		if(intent.getStringExtra(JSONParser.main_schedules) != null){
+		if(intent.getStringExtra(JsonDiningParser.main_schedules) != null){
 			tvTimings.setPadding(0, 10, 0, 0);
 			tvTimings.setTextSize(15);
-			tvTimings.setText(intent.getStringExtra(JSONParser.main_schedules));
+			tvTimings.setText(intent.getStringExtra(JsonDiningParser.main_schedules));
 		}
 
 	}

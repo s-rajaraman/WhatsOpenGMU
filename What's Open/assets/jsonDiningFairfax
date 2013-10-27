@@ -141,6 +141,18 @@
                         "end_day": 4, 
                         "start_time": "11:00:00", 
                         "end_time": "14:30:00"
+                    },
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
                     }
                 ]
             }, 
@@ -235,7 +247,20 @@
                         "end_day": 4, 
                         "start_time": "08:00:00", 
                         "end_time": "15:00:00"
+                    },
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    },
+                   {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
                     }
+                    
                 ]
             }, 
             "name": "Chick-fil-A", 
@@ -276,6 +301,18 @@
                         "end_day": 4, 
                         "start_time": "07:30:00", 
                         "end_time": "16:00:00"
+                    },
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    },
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
                     }
                 ]
             }, 
@@ -317,6 +354,18 @@
                         "end_day": 4, 
                         "start_time": "07:30:00", 
                         "end_time": "18:00:00"
+                    },
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    },
+                   	{
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
                     }
                 ]
             }, 
@@ -517,6 +566,18 @@
                         "end_day": 4, 
                         "start_time": "09:00:00", 
                         "end_time": "15:00:00"
+                    },
+                      {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    },
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
                     }
                 ]
             }, 
@@ -664,7 +725,20 @@
                         "end_day": 4, 
                         "start_time": "08:00:00", 
                         "end_time": "17:00:00"
+                    },
+                   {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    },
+                     {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
                     }
+                    
                 ]
             }, 
             "name": "Jazzman's Caf\u00e9", 
@@ -820,7 +894,7 @@
                     }, 
                     {
                         "start_day": 6, 
-                        "end_day": 7, 
+                        "end_day": 0, 
                         "start_time": "12:00:00", 
                         "end_time": "00:00:00"
                     }
@@ -917,6 +991,18 @@
                         "end_day": 4, 
                         "start_time": "08:00:00", 
                         "end_time": "15:00:00"
+                    },
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    },
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
                     }
                 ]
             }, 
@@ -967,7 +1053,7 @@
                     }, 
                     {
                         "start_day": 6, 
-                        "end_day": 7, 
+                        "end_day": 0, 
                         "start_time": "21:00:00", 
                         "end_time": "04:00:00"
                     }
@@ -1488,6 +1574,18 @@
                         "end_day": 4, 
                         "start_time": "11:00:00", 
                         "end_time": "15:00:00"
+                    },
+                    {
+                        "start_day": 5, 
+                        "end_day": 5, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
+                    }, 
+                    {
+                        "start_day": 6, 
+                        "end_day": 6, 
+                        "start_time": "00:00:00", 
+                        "end_time": "00:00:00"
                     }
 
                 ]
