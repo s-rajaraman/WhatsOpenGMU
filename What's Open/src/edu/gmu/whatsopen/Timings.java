@@ -1,10 +1,14 @@
 package edu.gmu.whatsopen;
 
 import android.text.format.Time;
-
+/**
+ *To hold a start and end time of a Store. 
+ *@author Sriram
+ */
 public class Timings {
 	Time startTime;
 	Time endTime;
+	static String [] weekdays = {"Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"};
 
 	//"07:00:00"
 	// 01234567
@@ -19,10 +23,19 @@ public class Timings {
 		endTime = end;
 	}
 
+	/**
+	 * Based on current day and time, is the store
+	 * open
+	 * @author Sriram
+	 *
+	 */
 	public boolean isOpen(){
 		Time now = new Time();
 		now.setToNow();
 		now.weekDay = convertWeekday(now.weekDay);
+		//Two different cases: 
+		//1. A store opens and closes on the same day
+		//2. A store opens and closes on different days ie (10 pm - 4 am)
 		if(startTime.weekDay==endTime.weekDay){
 			return getMinutes(now)>=getMinutes(startTime) &&
 					getMinutes(now)<getMinutes(endTime);
@@ -38,19 +51,52 @@ public class Timings {
 	}
 
 	public String toString(){
-		return "Start day "+startTime.weekDay+" Start time: " + startTime.hour+":"+startTime.minute
-				+"End day "+endTime.weekDay+"End Time: "+endTime.hour+":"+endTime.minute;
+		if(startTime.hour==0&&0==endTime.hour){
+			return weekdays[startTime.weekDay]+" - Closed";
+		}
+		else if(startTime.hour==0&&endTime.hour==23&&endTime.minute==59){
+			return weekdays[startTime.weekDay]+" - Open day and night";
+		}
+		return weekdays[startTime.weekDay]+" - "+timeToString(startTime)
+				+" - "+timeToString(endTime);
 	}
 
 	private int getMinutes(Time a){
 		return (a.hour*60) + a.minute;
 	}
-	
+
 	private int convertWeekday(int androidWeekday){
 		if(androidWeekday==0){
 			return 6;
 		}
 		return androidWeekday-1;
+	}
+
+	public String timeToString(Time a){
+		int hour = a.hour;
+		int minute = a.minute;
+		String minuteString = Integer.toString(minute);
+		String timePeriod = " am";
+		
+		//Deals with hours and am/pm
+		if(hour>12 && hour<23){
+			timePeriod = " pm";
+			hour-=12;
+		}
+		else if(hour==12){
+			timePeriod = " pm";
+		}
+		else if(hour==23){
+			hour=12;
+		}
+		else if(hour==0){
+			hour = 12;
+		}
+		//Deals with minutes whether to add a zero or not
+		if(minuteString.length()<2){
+			minuteString+="0";
+		}
+		return hour+":"+minuteString+timePeriod;
 	}
 
 }

@@ -9,14 +9,14 @@ import android.widget.TextView;
 public class JSONTesterActivity extends Activity{
 
 	TextView tv;
-	JSONParser jp;
+	JsonDiningParser jp;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_activity);
 		tv = (TextView) this.findViewById(R.id.tvResult);
 
-		JSONParser jp = new JSONParser(this);
+		JsonDiningParser jp = new JsonDiningParser(this);
 
 		Time now = new Time();
 		now.setToNow();
