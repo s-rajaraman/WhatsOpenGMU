@@ -1,6 +1,8 @@
-package edu.gmu.whatsopen;
+package edu.gmu.whatsopen.view;
 
 
+import edu.gmu.whatsopen.parser.JsonParser;
+import edu.gmu.whatsopen.store.Store;
 import android.app.ListActivity;
 import android.content.Context;
 import android.content.Intent;
@@ -17,11 +19,11 @@ import android.view.*;
 
 public class StoreListActivity extends ListActivity {
 
-	JsonDiningParser jp;
+	JsonParser jp;
 
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		jp = new JsonDiningParser(this);
+		jp = new JsonParser(this);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		initList();
 
@@ -39,7 +41,7 @@ public class StoreListActivity extends ListActivity {
 				View view = super.getView(position, convertView, parent);
 				TextView textView=(TextView) view.findViewById(android.R.id.text1);
 
-				if(jp.stores.get(position).schedule.isOpen()){
+				if(jp.getStores().get(position).getSchedule().isOpen()){
 					textView.setTextColor(Color.rgb(0, 153, 0));
 				}
 				else{
@@ -54,17 +56,17 @@ public class StoreListActivity extends ListActivity {
 
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		Intent i = new Intent("android.intent.action.STOREDETAILS");
-		Store currentStore = jp.stores.get(position);
+		Store currentStore = jp.getStores().get(position);
 
-		String name = currentStore.storeName;
-		int currentStoreid = currentStore.id;
-		String timings = currentStore.schedule.toString();
-		String location = currentStore.location;
+		String name = currentStore.getStoreName();
+		int currentStoreid = currentStore.getId();
+		String timings = currentStore.getSchedule().toString();
+		String location = currentStore.getLocation();
 
-		i.putExtra(JsonDiningParser.name, name);
-		i.putExtra(JsonDiningParser.location, location);
-		i.putExtra(JsonDiningParser.id, currentStoreid);
-		i.putExtra(JsonDiningParser.main_schedules, timings);
+		i.putExtra(JsonParser.name, name);
+		i.putExtra(JsonParser.location, location);
+		i.putExtra(JsonParser.id, currentStoreid);
+		i.putExtra(JsonParser.main_schedules, timings);
 		saveLastPosition();
 		startActivity(i);
 	}
@@ -94,7 +96,7 @@ public class StoreListActivity extends ListActivity {
 		edit.putInt("Last_Position", index);
 		edit.commit();
 	}
-	
+
 	private void setLastPosition(){
 		int index = getPreferences(Context.MODE_PRIVATE).getInt("Last_Position", 0);
 		this.getListView().setSelectionFromTop(index, 0);

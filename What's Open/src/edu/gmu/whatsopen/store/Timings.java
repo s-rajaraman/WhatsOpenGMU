@@ -1,4 +1,4 @@
-package edu.gmu.whatsopen;
+package edu.gmu.whatsopen.store;
 
 import android.text.format.Time;
 /**

@@ -1,6 +1,7 @@
-package edu.gmu.whatsopen;
+package edu.gmu.whatsopen.store;
 
 import java.util.ArrayList;
+
 import android.text.format.Time;
 
 public class Schedule {

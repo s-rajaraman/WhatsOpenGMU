@@ -16,20 +16,28 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+       
         <activity
-            android:name="StoreListActivity"
+            android:name=".view.StoreListActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.STORELIST" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="StoreDetailsActivity" >
+        
+        <activity android:name=".view.StoreDetailsActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.STOREDETAILS" />
-
                 <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".view.CampusList">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>               
+                <category android:name="android.intent.category.DEFAULT" />
+                
             </intent-filter>
         </activity>
     </application>

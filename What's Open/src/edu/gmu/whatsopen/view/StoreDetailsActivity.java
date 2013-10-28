@@ -1,5 +1,7 @@
-package edu.gmu.whatsopen;
+package edu.gmu.whatsopen.view;
 
+import edu.gmu.whatsopen.R;
+import edu.gmu.whatsopen.parser.JsonParser;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -21,7 +23,7 @@ public class StoreDetailsActivity extends Activity {
 		tvTimings = (TextView)findViewById(R.id.tvTimings);
 
 		Intent intent = getIntent();
-		String name = intent.getStringExtra(JsonDiningParser.name);
+		String name = intent.getStringExtra(JsonParser.name);
 
 		if(name!=null){
 			tvTitle.setTypeface(Typeface.DEFAULT_BOLD);
@@ -29,15 +31,15 @@ public class StoreDetailsActivity extends Activity {
 			tvTitle.setText(name);
 		}
 
-		if(intent.getStringExtra(JsonDiningParser.location)!=null){
+		if(intent.getStringExtra(JsonParser.location)!=null){
 			tvLocation.setTextSize(15);
-			tvLocation.setText(intent.getStringExtra(JsonDiningParser.location));
+			tvLocation.setText(intent.getStringExtra(JsonParser.location));
 		}
 
-		if(intent.getStringExtra(JsonDiningParser.main_schedules) != null){
+		if(intent.getStringExtra(JsonParser.main_schedules) != null){
 			tvTimings.setPadding(0, 10, 0, 0);
 			tvTimings.setTextSize(15);
-			tvTimings.setText(intent.getStringExtra(JsonDiningParser.main_schedules));
+			tvTimings.setText(intent.getStringExtra(JsonParser.main_schedules));
 		}
 
 	}

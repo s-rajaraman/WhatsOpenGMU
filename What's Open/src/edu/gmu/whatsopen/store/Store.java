@@ -1,10 +1,11 @@
-package edu.gmu.whatsopen;
+package edu.gmu.whatsopen.store;
+
 
 public class Store {
-	int id;
-	String location;
-	Schedule schedule;
-	String storeName;
+	private int id;
+	private String location;
+	private Schedule schedule;
+	private String storeName;
 
 	public Store(int id, String location, Schedule schedule,String storeName){
 		this.id=id;
@@ -24,6 +25,17 @@ public class Store {
 	public boolean isOpen(){
 		return schedule.isOpen();
 	}
-
+	public int getId(){
+		return id;
+	}
+	public String getLocation(){
+		return location;
+	}
+	public String getStoreName(){
+		return storeName;
+	}
+	public Schedule getSchedule(){
+		return schedule;
+	}
 
 }
