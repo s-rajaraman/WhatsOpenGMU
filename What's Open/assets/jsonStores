@@ -3,8 +3,11 @@
         {
             "id": 680, 
             "special_schedules": [], 
-            "main_schedule": {
-                "name": "2nd Stop", 
+            "lat": "38.834432", 
+            "lng": "-77.310875",
+            	
+            	"main_schedule": {
+                "name": "2nd Stop",
                 "open_times": [
                     {
                         "start_day": 0, 
@@ -54,4 +57,5 @@
             "location": "Rogers Hall"
         }
     ]
+    
 }

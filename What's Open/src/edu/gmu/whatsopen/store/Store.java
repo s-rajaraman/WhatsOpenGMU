@@ -6,14 +6,17 @@ public class Store {
 	private String location;
 	private Schedule schedule;
 	private String storeName;
+	private Coordinate storeCoordinate;
 
-	public Store(int id, String location, Schedule schedule,String storeName){
+	public Store(int id, String location, Schedule schedule,String storeName, Coordinate coordinate){
 		this.id=id;
 		this.location = location;
 		this.schedule = schedule;
 		this.storeName = storeName;
+		this.storeCoordinate = coordinate;
 	}
 
+	@Override
 	public String toString(){
 		String result = "Store Name "+storeName;
 		result+=" Location "+location;
@@ -36,6 +39,13 @@ public class Store {
 	}
 	public Schedule getSchedule(){
 		return schedule;
+	}
+	public String getTodaysTimings(){
+		return null;
+	}
+	
+	public Coordinate getCoordinate(){
+		return storeCoordinate;
 	}
 
 }

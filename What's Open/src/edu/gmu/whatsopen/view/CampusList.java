@@ -9,6 +9,7 @@ import android.widget.ListView;
 
 public class CampusList extends ListActivity {
 	public static String [] classes = {"Fairfax","Arlington","Prince Williams"};
+	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);	
 		requestWindowFeature(Window.FEATURE_NO_TITLE);

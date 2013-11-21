@@ -15,6 +15,7 @@ public class Schedule {
 		return times;
 	}
 
+	@Override
 	public String toString(){
 		String result = ""; 
 		for(Timings t:times){
@@ -31,6 +32,15 @@ public class Schedule {
 			return false;
 		}
 		return times.get(temp.weekDay).isOpen();
+	}
+	public String getTodayTiming(){
+		Time temp = new Time();
+		temp.setToNow();
+		temp.weekDay = convertWeekday(temp.weekDay);
+		if(times.size()<temp.weekDay+1){
+			return null;
+		}
+		return times.get(temp.weekDay).toString();
 	}
 
 	/*Android weekday is 0-6, 0 being Sunday

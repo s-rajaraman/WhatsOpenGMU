@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
+import edu.gmu.whatsopen.store.Coordinate;
 import edu.gmu.whatsopen.store.Schedule;
 import edu.gmu.whatsopen.store.Store;
 import edu.gmu.whatsopen.store.Timings;
@@ -31,6 +32,9 @@ public class JsonParser {
 	public static String end_day = "end_day";
 	public static String start_time = "start_time";
 	public static String end_time = "end_time";
+	public static String latitude = "lat";
+	public static String longtitude = "lng";
+	
 
 
 	private ArrayList<Store> stores;
@@ -63,12 +67,13 @@ public class JsonParser {
 	public ArrayList<Store>getStores(){
 		return stores;
 	}
-	
+	//this is where the json is being read
 	private void readJsonStream(JsonReader reader) throws IOException {
 		stores = new ArrayList<Store>();
 		try {
 			reader.beginObject();
 			String name = reader.nextName();
+			//if the tag is dining, then get the add the array of stores
 			if(name.equals(dining)){
 				reader.beginArray();
 				while (reader.hasNext()) {
@@ -89,6 +94,8 @@ public class JsonParser {
 		String location = null;
 		Schedule schedule = null;
 		String storeName = null;
+		double lat = 0;
+		double lng = 0;
 
 		try {
 			reader.beginObject();
@@ -108,17 +115,24 @@ public class JsonParser {
 				else if(name.equals(JsonParser.name)&& reader.peek()!=JsonToken.NULL){
 					storeName = reader.nextString();
 				}
+				else if(name.equals(JsonParser.latitude)){
+					lat = reader.nextDouble();
+				}
+				else if(name.equals(JsonParser.longtitude)){
+					lng = reader.nextDouble();
+				}
 				else{
 					reader.skipValue();
 				}
 			}
-
 			reader.endObject();
+			Log.e("Coordinate", "Lat "+lat+" Lng"+lng);
 		} catch (IOException e) {
 			Log.e("JsonParser.readStore()", "Failed");
 			e.printStackTrace();
 		}
-		return new Store(id,location,schedule,storeName);
+		
+		return new Store(id,location,schedule,storeName,new Coordinate(lat,lng));
 	}
 
 	private Schedule readSchedule(JsonReader reader) {
@@ -134,7 +148,6 @@ public class JsonParser {
 					reader.skipValue();
 				}
 			}
-
 			reader.endObject();
 		}catch(Exception e){
 			Log.e("JsonParser.readSchedule()", "Failed");
@@ -195,6 +208,7 @@ public class JsonParser {
 
 	public void sortListByAvailability(){
 		Collections.sort(stores, new Comparator<Store>() {
+			@Override
 			public int compare(Store A, Store B) {
 				if(A.isOpen()==false && B.isOpen()==true){
 					return 1;

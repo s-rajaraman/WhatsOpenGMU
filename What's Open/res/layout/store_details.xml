@@ -22,4 +22,10 @@
         android:layout_height="wrap_content"
         android:text="TextView" />
 
+    <Button
+        android:id="@+id/bMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:text="link to map"/>
+
 </LinearLayout>

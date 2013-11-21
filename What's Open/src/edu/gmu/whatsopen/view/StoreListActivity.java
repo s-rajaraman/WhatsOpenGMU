@@ -21,6 +21,7 @@ public class StoreListActivity extends ListActivity {
 
 	JsonParser jp;
 
+	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		jp = new JsonParser(this);
@@ -54,6 +55,7 @@ public class StoreListActivity extends ListActivity {
 		setLastPosition();
 	}
 
+	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		Intent i = new Intent("android.intent.action.STOREDETAILS");
 		Store currentStore = jp.getStores().get(position);
@@ -62,11 +64,16 @@ public class StoreListActivity extends ListActivity {
 		int currentStoreid = currentStore.getId();
 		String timings = currentStore.getSchedule().toString();
 		String location = currentStore.getLocation();
+		double lat = currentStore.getCoordinate().getLatitude();
+		double lng = currentStore.getCoordinate().getLongitude();
 
 		i.putExtra(JsonParser.name, name);
 		i.putExtra(JsonParser.location, location);
 		i.putExtra(JsonParser.id, currentStoreid);
 		i.putExtra(JsonParser.main_schedules, timings);
+		i.putExtra(JsonParser.latitude, lat);
+		i.putExtra(JsonParser.longtitude,lng);
+		
 		saveLastPosition();
 		startActivity(i);
 	}

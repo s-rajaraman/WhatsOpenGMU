@@ -18,6 +18,7 @@ public class Timings {
 		endTime.hour = Integer.parseInt(end.substring(0, 2));
 		endTime.minute = Integer.parseInt(end.substring(3, 5));
 	}
+	
 	public Timings(Time start, Time end){
 		startTime = start;
 		endTime = end;
@@ -27,7 +28,6 @@ public class Timings {
 	 * Based on current day and time, is the store
 	 * open
 	 * @author Sriram
-	 *
 	 */
 	public boolean isOpen(){
 		Time now = new Time();
@@ -50,6 +50,7 @@ public class Timings {
 		return false;
 	}
 
+	@Override
 	public String toString(){
 		if(startTime.hour==0&&0==endTime.hour){
 			return weekdays[startTime.weekDay]+" - Closed";
